@@ -1,0 +1,96 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+body > * {
+  width: 100%;
+}
+.page {
+  flex: 1 1 auto;
+}
+.header {
+  text-align: center;
+  background: #fab600;
+  color: white;
+  padding: 30px 15px;
+}
+
+.center {
+  text-align: center;
+}
+
+.footer {
+  background: #fab600;
+  color: white;
+  padding: 15px;
+  flex: 0 0 auto;
+}
+.footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.footer li {
+  padding: 0 10px;
+}
+
+h3 {
+  font-size: 32px;
+}
+.dir {
+  font-size: 24px;
+}
+
+.hot {
+  color: red;
+}
+.cold {
+  color: blue;
+}
+.desc {
+  margin: 30px 0;
+  font-size: 56px;
+}
+.owl-carousel button.owl-dot {
+ padding: 5px !important; 
+}
+.owl-carousel button.owl-dot:focus {
+  outline: none;
+}
+
+.owl-dot span {
+  display: inline-block;
+  background: black;
+  height: 16px;
+  width: 16px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.owl-dot span:hover,
+.owl-dot.active span {
+  background: white;
+}
+
+.inputs {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.stationInput {
+  padding: 4px 8px;
+  font-size: 18px;
+}
+input[type="checkbox"] {
+  margin-left: 6px;
+}
+
+.dropdown-menu {
+  max-height: calc(100vh - 250px);
+  overflow-y: scroll;
+}
